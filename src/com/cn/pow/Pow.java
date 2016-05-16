@@ -13,6 +13,8 @@ public class Pow {
 	}
 	
 	
+	
+	
 	public static void main(String[] args) {
 		Pow p = new Pow();
 		double tem = p.myPow(3.0, -2);
