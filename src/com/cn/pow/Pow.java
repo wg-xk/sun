@@ -11,6 +11,8 @@ public class Pow {
 		}
 		return n%2 == 0 ? myPow(x*x, n/2) : x*(myPow(x*x, n/2)); 
 	}
+	
+	
 	public static void main(String[] args) {
 		Pow p = new Pow();
 		double tem = p.myPow(3.0, -2);
